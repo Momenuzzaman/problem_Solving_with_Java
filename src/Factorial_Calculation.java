@@ -6,19 +6,8 @@ public class Factorial_Calculation {
         System.out.println("Enter number");
 
         Integer number = Integer.valueOf(enterNumber.nextLine());
-//        System.out.println(factorial(number));
         System.out.println(factRecursion(number));
     }
-
-
-    static long factorial(int number){
-        long result = 1l;
-        for(int i = 1;i <= number; i++){
-            result *= i;
-        }
-        return  result;
-    }
-
 
    static int factRecursion(int n)
     {
